@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="11038" started-at="2021-02-19T05:33:01Z" finished-at="2021-02-19T05:33:12Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="7118" started-at="2021-02-19T05:33:01Z" finished-at="2021-02-19T05:33:08Z">
+      <class name="com.tekarch.login.loginTekApp">
+        <test-method status="PASS" signature="settingUpEnvironment()[pri:0, instance:com.tekarch.login.loginTekApp@1ce92674]" name="settingUpEnvironment" is-config="true" duration-ms="1845" started-at="2021-02-19T00:33:01Z" finished-at="2021-02-19T00:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUpEnvironment -->
+        <test-method status="PASS" signature="To_check_Error_For_Invalid_Login()[pri:1, instance:com.tekarch.login.loginTekApp@1ce92674]" name="To_check_Error_For_Invalid_Login" duration-ms="3209" started-at="2021-02-19T00:33:03Z" finished-at="2021-02-19T00:33:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- To_check_Error_For_Invalid_Login -->
+        <test-method status="PASS" signature="settingReqURL()[pri:0, instance:com.tekarch.login.loginTekApp@1ce92674]" name="settingReqURL" is-config="true" duration-ms="168" started-at="2021-02-19T00:33:06Z" finished-at="2021-02-19T00:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingReqURL -->
+        <test-method status="PASS" signature="to_Check_Whether_Login_Happening_Or_Not()[pri:2, instance:com.tekarch.login.loginTekApp@1ce92674]" name="to_Check_Whether_Login_Happening_Or_Not" duration-ms="1669" started-at="2021-02-19T00:33:07Z" finished-at="2021-02-19T00:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- to_Check_Whether_Login_Happening_Or_Not -->
+        <test-method status="PASS" signature="settingReqURL()[pri:0, instance:com.tekarch.login.loginTekApp@1ce92674]" name="settingReqURL" is-config="true" duration-ms="98" started-at="2021-02-19T00:33:08Z" finished-at="2021-02-19T00:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingReqURL -->
+      </class> <!-- com.tekarch.login.loginTekApp -->
+    </test> <!-- login -->
+    <test name="Widget" duration-ms="2931" started-at="2021-02-19T05:33:09Z" finished-at="2021-02-19T05:33:12Z">
+      <class name="com.tekarch.widget.Accordian">
+        <test-method status="PASS" signature="TriggerDependencies()[pri:0, instance:com.tekarch.widget.Accordian@2df32bf7]" name="TriggerDependencies" is-config="true" duration-ms="7981" started-at="2021-02-19T00:32:53Z" finished-at="2021-02-19T00:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TriggerDependencies -->
+        <test-method status="PASS" signature="settingUpEnvironment()[pri:0, instance:com.tekarch.widget.Accordian@2df32bf7]" name="settingUpEnvironment" is-config="true" duration-ms="918" started-at="2021-02-19T00:33:09Z" finished-at="2021-02-19T00:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUpEnvironment -->
+        <test-method status="PASS" signature="To_check_whether_Accordian_widget_is_working_fine()[pri:1, instance:com.tekarch.widget.Accordian@2df32bf7]" name="To_check_whether_Accordian_widget_is_working_fine" duration-ms="1091" started-at="2021-02-19T00:33:10Z" finished-at="2021-02-19T00:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- To_check_whether_Accordian_widget_is_working_fine -->
+        <test-method status="PASS" signature="settingReqURL()[pri:0, instance:com.tekarch.widget.Accordian@2df32bf7]" name="settingReqURL" is-config="true" duration-ms="917" started-at="2021-02-19T00:33:11Z" finished-at="2021-02-19T00:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingReqURL -->
+        <test-method status="PASS" signature="ShuttingDownAllDependencies()[pri:0, instance:com.tekarch.widget.Accordian@2df32bf7]" name="ShuttingDownAllDependencies" is-config="true" duration-ms="745" started-at="2021-02-19T00:33:12Z" finished-at="2021-02-19T00:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShuttingDownAllDependencies -->
+      </class> <!-- com.tekarch.widget.Accordian -->
+    </test> <!-- Widget -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
